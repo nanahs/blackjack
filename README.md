@@ -8,20 +8,26 @@ A default template for building Elm applications using Vite with TailwindCSS. In
 
 > tailwindcss is a utility-first CSS framework for rapidly building custom user interfaces.
 
-## Get Started
-
-```bash
-# Clone the template locally, removing the template's Git log
-npx degit nanahs/vite-elm-tailwindcss-template my-elm-app
-
-# Enter the project, install dependencies, and get started!
-cd my-elm-app
-npm install
-npm run dev
-```
-
 For more information about Vite, check out [Vite's official documentation.](https://vitejs.dev/)
 
 To learn more about Elm, check out [Elm's official homepage](https://elm-lang.org/).
 
 To learn more about tailwindcss, check out [tailwindcss's official homepage](https://tailwindcss.com/).
+
+## TODOS
+
+**_Player Rules_**
+
+- Splitting
+- Doubling down
+- Naturals
+- Face up/dace down cards
+
+**_Dealer Rules_**
+
+- less than or equal to 16 must hit
+- greater than 16 must stand
+
+**_General Rules_**
+
+- greater than 21 is bust
