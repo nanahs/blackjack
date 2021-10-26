@@ -1,0 +1,33 @@
+{
+  "name": "vite-elm-template",
+  "author": "Lindsay Wardell",
+  "description": "A staring template for building Elm apps with Vite",
+  "version": "1.0.1",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "dev": "vite",
+    "prebuild": "elm-tooling install",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "elm-tooling": "^1.0.2",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.5.1",
+    "vite-plugin-elm": "^2.4.3"
+  },
+  "dependencies": {},
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanahs/elm-vite-tailwindcss-starter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nanahs/elm-vite-tailwindcss-starter/issues"
+  },
+  "homepage": "https://github.com/nanahs/elm-vite-tailwindcss-starter#readme"
+}
